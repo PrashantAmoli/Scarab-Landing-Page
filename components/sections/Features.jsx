@@ -96,10 +96,10 @@ export const Features = () => {
 											className="sticky w-full max-w-xl px-8 py-24 mx-auto space-y-4 gradient_secondary border rounded-xl shadow-xl transition-all hover:scale-105 backdrop-blur top-[calc(2rem*1)] left-[calc(1rem*1)]"
 										>
 											<h2 className="space-y-1 text-2xl font-bold leading-none ">
-												<span className="block text-sm text-blue-400">Project #1 </span>
-												<span className="block">Title of the Project</span>
+												<span className="block text-sm text-blue-600 dark:text-blue-400 ">Project #1 </span>
+												<span className="block truncate">Title of the Project</span>
 											</h2>
-											<p className="">
+											<p className="text-gray-600 dark:text-gray-300">
 												Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum, perspiciatis blanditiis accusamus commodi consectetur id
 												tempora rem iure eligendi quos eos et autem ratione exercitationem earum laborum ad a sequi!
 											</p>
@@ -109,10 +109,10 @@ export const Features = () => {
 											className="sticky w-full max-w-xl px-8 py-24 mx-auto space-y-4 gradient_secondary border rounded-xl shadow-xl transition-all hover:scale-105 backdrop-blur top-[calc(2rem*2)] left-[calc(8rem*2)]"
 										>
 											<h2 className="space-y-1 text-2xl font-bold leading-none ">
-												<span className="block text-sm text-blue-400">Project #2 </span>
-												<span className="block">Title of the Project</span>
+												<span className="block text-sm text-blue-600 dark:text-blue-400 ">Project #2 </span>
+												<span className="block truncate">Title of the Project</span>
 											</h2>
-											<p className="">
+											<p className="text-gray-600 dark:text-gray-300">
 												Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum, perspiciatis blanditiis accusamus commodi consectetur id
 												tempora rem iure eligendi quos eos et autem ratione exercitationem earum laborum ad a sequi!
 											</p>
@@ -122,10 +122,10 @@ export const Features = () => {
 											className="sticky w-full max-w-xl px-8 py-24 mx-auto space-y-4 gradient_secondary border rounded-xl shadow-xl transition-all hover:scale-105 backdrop-blur top-[calc(2rem*3)]"
 										>
 											<h2 className="space-y-1 text-2xl font-bold leading-none ">
-												<span className="block text-sm text-blue-400">Project #3 </span>
-												<span className="block">Title of the Project</span>
+												<span className="block text-sm text-blue-600 dark:text-blue-400 ">Project #3 </span>
+												<span className="block truncate">Title of the Project</span>
 											</h2>
-											<p className="">
+											<p className="text-gray-600 dark:text-gray-300">
 												Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum, perspiciatis blanditiis accusamus commodi consectetur id
 												tempora rem iure eligendi quos eos et autem ratione exercitationem earum laborum ad a sequi!
 											</p>
@@ -135,10 +135,10 @@ export const Features = () => {
 											className="sticky w-full max-w-xl px-8 py-24 mx-auto space-y-4 gradient_secondary border rounded-xl shadow-xl transition-all hover:scale-105 backdrop-blur top-[calc(2rem*4)]"
 										>
 											<h2 className="space-y-1 text-2xl font-bold leading-none ">
-												<span className="block text-sm text-blue-400">Project #4 </span>
-												<span className="block">Title of the Project</span>
+												<span className="block text-sm text-blue-600 dark:text-blue-400 ">Project #4 </span>
+												<span className="block truncate">Title of the Project</span>
 											</h2>
-											<p className="">
+											<p className="text-gray-600 dark:text-gray-300">
 												Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum, perspiciatis blanditiis accusamus commodi consectetur id
 												tempora rem iure eligendi quos eos et autem ratione exercitationem earum laborum ad a sequi!
 											</p>
@@ -148,10 +148,10 @@ export const Features = () => {
 											className="sticky w-full max-w-xl px-8 py-24 mx-auto space-y-4 gradient_secondary border rounded-xl shadow-xl transition-all hover:scale-105 backdrop-blur top-[calc(2rem*5)]"
 										>
 											<h2 className="space-y-1 text-2xl font-bold leading-none ">
-												<span className="block text-sm text-blue-400">Project #5 </span>
-												<span className="block">Title of the Project</span>
+												<span className="block text-sm text-blue-600 dark:text-blue-400 ">Project #5 </span>
+												<span className="block truncate">Title of the Project</span>
 											</h2>
-											<p className="">
+											<p className="text-gray-600 dark:text-gray-300">
 												Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum, perspiciatis blanditiis accusamus commodi consectetur id
 												tempora rem iure eligendi quos eos et autem ratione exercitationem earum laborum ad a sequi!
 											</p>
@@ -161,10 +161,10 @@ export const Features = () => {
 											className="sticky w-full max-w-xl px-8 py-24 mx-auto space-y-4 gradient_secondary border rounded-xl shadow-xl transition-all hover:scale-105 backdrop-blur top-[calc(2rem*6)] invisible"
 										>
 											<h2 className="space-y-1 text-2xl font-bold leading-none ">
-												<span className="block text-sm text-blue-400">Project #6 </span>
-												<span className="block">Title of the Project</span>
+												<span className="block text-sm text-blue-600 dark:text-blue-400 ">Project #6 </span>
+												<span className="block truncate">Title of the Project</span>
 											</h2>
-											<p className="">
+											<p className="text-gray-600 dark:text-gray-300">
 												Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum, perspiciatis blanditiis accusamus commodi consectetur id
 												tempora rem iure eligendi quos eos et autem ratione exercitationem earum laborum ad a sequi!
 											</p>
@@ -178,17 +178,17 @@ export const Features = () => {
 			</div>
 
 			<div className="relative min-h-[20vh] mt-16 max-h-screen overflow-y-auto stacked">
-				<div className="relative flex flex-col px-2 pt-24 pb-12 font-sans text-gray-700 dark:text-gray-300  min-h-[100vh]">
+				<div className="relative flex flex-col px-2 pt-24 pb-8 font-sans text-gray-700 dark:text-gray-300  min-h-[100vh]">
 					<div className="flex-1 space-y-8">
 						<div
 							// style={{ top: 'calc(1rem * 1)' }}
 							className="sticky w-full max-w-5xl px-8 py-24 mx-auto space-y-4 gradient_secondary border rounded-xl shadow-xl transition-all hover:scale-105 backdrop-blur top-[calc(2.5rem*1)]"
 						>
 							<h2 className="space-y-1 text-2xl font-bold leading-none ">
-								<span className="block text-sm text-blue-400">Project #1 </span>
-								<span className="block">Title of the Project</span>
+								<span className="block text-sm text-blue-600 dark:text-blue-400 ">Project #1 </span>
+								<span className="block truncate">Title of the Project</span>
 							</h2>
-							<p className="">
+							<p className="text-gray-600 dark:text-gray-300">
 								Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum, perspiciatis blanditiis accusamus commodi consectetur id tempora rem
 								iure eligendi quos eos et autem ratione exercitationem earum laborum ad a sequi!
 							</p>
@@ -198,10 +198,10 @@ export const Features = () => {
 							className="sticky w-full max-w-5xl px-8 py-24 mx-auto space-y-4 gradient_secondary border rounded-xl shadow-xl transition-all hover:scale-105 backdrop-blur top-[calc(2.5rem*2)]"
 						>
 							<h2 className="space-y-1 text-2xl font-bold leading-none ">
-								<span className="block text-sm text-blue-400">Project #2 </span>
-								<span className="block">Title of the Project</span>
+								<span className="block text-sm text-blue-600 dark:text-blue-400 ">Project #2 </span>
+								<span className="block truncate">Title of the Project</span>
 							</h2>
-							<p className="">
+							<p className="text-gray-600 dark:text-gray-300">
 								Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum, perspiciatis blanditiis accusamus commodi consectetur id tempora rem
 								iure eligendi quos eos et autem ratione exercitationem earum laborum ad a sequi!
 							</p>
@@ -211,10 +211,10 @@ export const Features = () => {
 							className="sticky w-full max-w-5xl px-8 py-24 mx-auto space-y-4 gradient_secondary border rounded-xl shadow-xl transition-all hover:scale-105 backdrop-blur top-[calc(2.5rem*3)]"
 						>
 							<h2 className="space-y-1 text-2xl font-bold leading-none ">
-								<span className="block text-sm text-blue-400">Project #3 </span>
-								<span className="block">Title of the Project</span>
+								<span className="block text-sm text-blue-600 dark:text-blue-400 ">Project #3 </span>
+								<span className="block truncate">Title of the Project</span>
 							</h2>
-							<p className="">
+							<p className="text-gray-600 dark:text-gray-300">
 								Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum, perspiciatis blanditiis accusamus commodi consectetur id tempora rem
 								iure eligendi quos eos et autem ratione exercitationem earum laborum ad a sequi!
 							</p>
@@ -224,10 +224,10 @@ export const Features = () => {
 							className="sticky w-full max-w-5xl px-8 py-24 mx-auto space-y-4 gradient_secondary border rounded-xl shadow-xl transition-all hover:scale-105 backdrop-blur top-[calc(2.5rem*4)]"
 						>
 							<h2 className="space-y-1 text-2xl font-bold leading-none ">
-								<span className="block text-sm text-blue-400">Project #4 </span>
-								<span className="block">Title of the Project</span>
+								<span className="block text-sm text-blue-600 dark:text-blue-400 ">Project #4 </span>
+								<span className="block truncate">Title of the Project</span>
 							</h2>
-							<p className="">
+							<p className="text-gray-600 dark:text-gray-300">
 								Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum, perspiciatis blanditiis accusamus commodi consectetur id tempora rem
 								iure eligendi quos eos et autem ratione exercitationem earum laborum ad a sequi!
 							</p>
@@ -237,10 +237,10 @@ export const Features = () => {
 							className="sticky w-full max-w-5xl px-8 py-24 mx-auto space-y-4 gradient_secondary border rounded-xl shadow-xl transition-all hover:scale-105 backdrop-blur top-[calc(2.5rem*5)]"
 						>
 							<h2 className="space-y-1 text-2xl font-bold leading-none ">
-								<span className="block text-sm text-blue-400">Project #5 </span>
-								<span className="block">Title of the Project</span>
+								<span className="block text-sm text-blue-600 dark:text-blue-400 ">Project #5 </span>
+								<span className="block truncate">Title of the Project</span>
 							</h2>
-							<p className="">
+							<p className="text-gray-600 dark:text-gray-300">
 								Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum, perspiciatis blanditiis accusamus commodi consectetur id tempora rem
 								iure eligendi quos eos et autem ratione exercitationem earum laborum ad a sequi!
 							</p>
@@ -250,10 +250,10 @@ export const Features = () => {
 							className="sticky w-full max-w-5xl px-8 py-24 mx-auto space-y-4 gradient_secondary border rounded-xl shadow-xl transition-all hover:scale-105 backdrop-blur top-[calc(2.5rem*6)] invisible"
 						>
 							<h2 className="space-y-1 text-2xl font-bold leading-none ">
-								<span className="block text-sm text-blue-400">Project #6 </span>
-								<span className="block">Title of the Project</span>
+								<span className="block text-sm text-blue-600 dark:text-blue-400 ">Project #6 </span>
+								<span className="block truncate">Title of the Project</span>
 							</h2>
-							<p className="">
+							<p className="text-gray-600 dark:text-gray-300">
 								Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum, perspiciatis blanditiis accusamus commodi consectetur id tempora rem
 								iure eligendi quos eos et autem ratione exercitationem earum laborum ad a sequi!
 							</p>

@@ -1,6 +1,8 @@
 export const Timeline = () => {
 	return (
 		<>
+			<h2 className="text-6xl font-extrabold text-center">Timeline Heading</h2>
+
 			<div className="container hidden w-full h-full min-h-screen mx-auto md:flex">
 				<div className="relative h-full p-10 overflow-hidden wrap">
 					<div className="absolute h-full border border-gray-700 border-2-2 border-opacity-20 left-1/2"></div>

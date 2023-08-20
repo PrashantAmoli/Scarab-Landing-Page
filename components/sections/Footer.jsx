@@ -90,9 +90,9 @@ export const Footer = () => {
 					<p className="text-center">© 2023 All rights reserved.</p>
 					<p className="text-center">
 						Made with ❤️ by &nbsp;
-						<a href="https://PrashantAmoli.vercel.app" target="_blank">
+						{/* <a href="https://PrashantAmoli.vercel.app" target="_blank">
 							Prashant
-						</a>
+						</a> */}
 					</p>
 				</div>
 			</footer>
