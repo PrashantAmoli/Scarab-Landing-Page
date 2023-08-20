@@ -4,7 +4,7 @@ export default function GradientBox({ children }) {
 	return (
 		<>
 			<div className="relative isolate ">
-				<div className="absolute inset-x-0 overflow-hidden -top-40 -z-10 transform-gpu blur-3xl sm:-top-80">
+				<div className="absolute inset-x-0 overflow-hidden -top-20 -z-10 transform-gpu blur-2xl sm:-top-80">
 					<svg
 						className="relative left-[calc(50%-11rem)] -z-10 h-[21.1875rem] max-w-none -translate-x-1/2 rotate-[30deg] sm:left-[calc(50%-30rem)] sm:h-[42.375rem]"
 						viewBox="0 0 1155 678"

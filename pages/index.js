@@ -46,15 +46,21 @@ export default function Home() {
 				</Reveal>
 
 				<Reveal from="left">
-					<Timeline />
+					<GradientBox>
+						<Timeline />
+					</GradientBox>
 				</Reveal>
 
 				<Reveal from="right">
-					<FAQ />
+					<GradientBox>
+						<FAQ />
+					</GradientBox>
 				</Reveal>
 
 				<Reveal from="left">
-					<Footer />
+					<GradientBox>
+						<Footer />
+					</GradientBox>
 				</Reveal>
 
 				<Switch
