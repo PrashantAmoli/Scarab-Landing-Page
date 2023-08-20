@@ -125,11 +125,11 @@ export const Hero = () => {
 
 				{/* <Image src="/hero.gif" width="500" height="500" alt="bg" className="absolute rounded-full -right-36 md:right-20 top-40 -z-10" /> */}
 
-				<div className="absolute rounded-full -right-36 md:right-20 top-40 -z-10">
+				<div className="absolute hidden rounded-full sm:flex -right-44 md:right-20 top-40 -z-10">
 					<WordCloud data={keywords} />
 				</div>
 
-				<Reveal from="right">
+				<Reveal from="bottom">
 					<div className="relative flex items-center justify-center w-full mt-6">
 						{/* <ScaleOnScroll> */}
 						<ReactParallaxTilt>

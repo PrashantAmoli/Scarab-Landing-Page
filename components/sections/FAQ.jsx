@@ -17,7 +17,7 @@ const AccordionGroup = () => {
 export const FAQ = () => {
 	return (
 		<>
-			<section className="relative z-10 flex flex-col items-center justify-between w-full p-2 overflow-hidden border py-28 gap-y-10 sm:gap-y-14 sm:px-16">
+			<section className="relative z-10 flex flex-col items-center justify-between w-full p-2 overflow-hidden py-28 gap-y-10 sm:gap-y-14 sm:px-16">
 				<div className="flex flex-col justify-between w-full gap-8 mx-auto md:flex-row">
 					<div className="flex flex-col justify-between w-full gap-10 sm:w-1/4">
 						<h3 className="w-full text-5xl font-extrabold xl:text-6xl font-SpaceX">FAQ&apos;s</h3>

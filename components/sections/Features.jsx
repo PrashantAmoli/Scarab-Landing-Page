@@ -3,7 +3,7 @@ import { CloudArrowUpIcon, LockClosedIcon, ServerIcon } from '@heroicons/react/2
 export const Features = () => {
 	return (
 		<>
-			<div className="relative my-10 overflow-y-auto hide-scrollbar lg:min-h-[70vh] border">
+			<div className="relative my-10 overflow-y-auto hide-scrollbar lg:min-h-[70vh]">
 				<div className="relative h-screen px-6 overflow-hidden isolate sm:py-32 lg:overflow-visible lg:px-0">
 					<div className="absolute inset-0 overflow-hidden -z-10">
 						{/* <svg

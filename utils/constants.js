@@ -1,3 +1,30 @@
+export const TIMELINE_DATA = [
+	{
+		id: 1,
+		title: 'Lorem Ipsum',
+		description:
+			'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s.',
+	},
+	{
+		id: 2,
+		title: 'Lorem Ipsum',
+		description:
+			'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s.',
+	},
+	{
+		id: 3,
+		title: 'Lorem Ipsum',
+		description:
+			'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s.',
+	},
+	{
+		id: 4,
+		title: 'Lorem Ipsum',
+		description:
+			'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s.',
+	},
+];
+
 export const FAQs = [
 	{
 		question: 'What is the difference between a public key and a wallet address?',
