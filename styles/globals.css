@@ -89,3 +89,12 @@
 	/* font-named-instance: 'Italic'; */
 	src: url('/fonts/SpaceX.ttf');
 }
+
+.hide-scrollbar::-webkit-scrollbar {
+	display: none;
+}
+
+.hide-scrollbar {
+	-ms-overflow-style: none;
+	scrollbar-width: none;
+}
