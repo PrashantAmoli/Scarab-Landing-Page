@@ -3,6 +3,7 @@ import ReactParallaxTilt from 'react-parallax-tilt';
 import { ScaleOnScroll } from '../animations/ScaleOnScroll';
 import { WordCloud } from '../elements/WordCloud';
 import Reveal from '../animations/Reveal';
+import { Button } from '../ui/button';
 
 const keywords = [
 	'Web3',
@@ -25,10 +26,10 @@ const keywords = [
 export const Hero = () => {
 	return (
 		<>
-			<nav className="absolute z-10 flex items-center justify-center w-70 top-3 right-3 sm:right-16 ">
-				<button className="w-40 py-1 transition-all rounded-lg shadow-2xl h-9 bg-black/70 px-9 shadow-blue-600 hover:cursor-pointer hover:scale-x-105 hover:shadow-2xl hover:shadow-blue-500">
+			<nav className="absolute z-30 flex items-center justify-center w-70 top-3 right-3 sm:right-20 ">
+				<Button className="w-40 py-1 capitalize transition-all rounded-lg shadow-2xl px-9 h-9 shadow-blue-600 hover:cursor-pointer hover:scale-x-105 hover:shadow-2xl hover:shadow-blue-500">
 					Get Started
-				</button>
+				</Button>
 			</nav>
 
 			<section className="relative z-10 flex flex-col items-start w-full min-h-screen p-2 py-20 overflow-hidden sm:py-24 gap-y-14 sm:pl-16">
@@ -120,7 +121,7 @@ export const Hero = () => {
 					Scarab is an all-in-one crypto portfolio manager that lets you buy sell and snipe tokens without using a wallet or DEX.
 				</p>
 
-				<button className="relative w-40 px-5 py-1 bg-blue-700 h-14 btn_polygon">Launch App</button>
+				<Button className="w-40 h-11 btn_polygon">Get Started</Button>
 
 				{/* <Image src="/hero.gif" width="500" height="500" alt="bg" className="absolute rounded-full -right-36 md:right-20 top-40 -z-10" /> */}
 

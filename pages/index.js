@@ -10,8 +10,11 @@ import { useRef } from 'react';
 import useScrollSnap from 'react-use-scroll-snap';
 import { SocialsMenu } from '@/components/sections/SocialsMenu';
 import GradientBox from '@/components/elements/GradientBox';
+import { Switch } from '@/components/ui/switch';
+import { useTheme } from 'next-themes';
 
 export default function Home() {
+	const { theme, setTheme } = useTheme();
 	const scrollRef = useRef(null);
 	// const { goto } = useScrollSnap({
 	// 	ref: scrollRef,
@@ -53,6 +56,12 @@ export default function Home() {
 				<Reveal from="left">
 					<Footer />
 				</Reveal>
+
+				<Switch
+					checked={theme === 'light' ? true : false}
+					onCheckedChange={() => setTheme(theme === 'light' ? 'dark' : 'light')}
+					className="fixed z-30 scale-110 sm:scale-125 top-14 sm:top-5 right-2 sm:right-4 dark:bg-white"
+				/>
 			</main>
 		</>
 	);

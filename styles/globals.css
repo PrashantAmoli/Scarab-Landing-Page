@@ -73,6 +73,12 @@
 	body {
 		@apply bg-background text-foreground;
 	}
+	.gradient-main {
+		@apply bg-gradient-to-br from-blue-500 via-blue-100 to-blue-500 scroll-smooth dark:bg-gradient-to-br dark:from-stone-950 dark:via-blue-950/95 dark:to-stone-950;
+	}
+	.gradient_secondary {
+		@apply bg-gradient-to-br from-blue-400/90 via-blue-200/50 to-blue-400/50 scroll-smooth dark:bg-gradient-to-br dark:from-stone-950/50 dark:via-blue-950/95 dark:to-stone-950/50;
+	}
 }
 
 @font-face {

@@ -86,7 +86,7 @@ export const Footer = () => {
 
 				<div className="w-11/12 mx-auto h-0.5 bg-gray-500"></div>
 
-				<div className="flex flex-col items-center justify-center w-full h-full p-1 text-sm text-gray-400">
+				<div className="flex flex-col items-center justify-center w-full h-full p-1 text-sm text-gray-500">
 					<p className="text-center">© 2023 All rights reserved.</p>
 					<p className="text-center">
 						Made with ❤️ by &nbsp;

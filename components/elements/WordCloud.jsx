@@ -21,7 +21,7 @@ export const WordCloud = ({ data }) => {
 					})}
 					onClick={(tag, ev) => alert(tag)}
 					onClickOptions={{ passive: true }}
-					className="z-10 font-semibold text-gray-300 select-none w-max h-max"
+					className="z-10 font-semibold select-none w-max h-max"
 				>
 					{data}
 				</TagCloud>

@@ -27,8 +27,8 @@ export const Features = () => {
 							<div className="lg:pr-4">
 								<div className="lg:max-w-lg">
 									<p className="text-base font-semibold leading-7 text-indigo-400">Deploy faster</p>
-									<h1 className="mt-2 text-3xl font-bold tracking-tight text-white sm:text-4xl">A better workflow</h1>
-									<p className="mt-6 leading-8 text-gray-300 text-md">
+									<h1 className="mt-2 text-3xl font-bold tracking-tight sm:text-4xl">A better workflow</h1>
+									<p className="mt-6 leading-8 text-gray-700 dark:text-gray-300 text-md">
 										Aliquet nec orci mattis amet quisque ullamcorper neque, nibh sem. At arcu, sit dui mi, nibh dui, diam eget aliquam. Quisque id at
 										vitae feugiat egestas.
 									</p>
@@ -56,21 +56,21 @@ export const Features = () => {
 									<li className="flex gap-x-3">
 										<CloudArrowUpIcon className="flex-none w-5 h-5 mt-1 text-indigo-600" aria-hidden="true" />
 										<span>
-											<strong className="font-semibold text-white">Push to deploy.</strong> Lorem ipsum, dolor sit amet consectetur adipisicing
+											<strong className="font-semibold ">Push to deploy.</strong> Lorem ipsum, dolor sit amet consectetur adipisicing
 											elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.
 										</span>
 									</li>
 									<li className="flex gap-x-3">
 										<LockClosedIcon className="flex-none w-5 h-5 mt-1 text-indigo-600" aria-hidden="true" />
 										<span>
-											<strong className="font-semibold text-white">SSL certificates.</strong> Anim aute id magna aliqua ad ad non deserunt sunt.
+											<strong className="font-semibold ">SSL certificates.</strong> Anim aute id magna aliqua ad ad non deserunt sunt.
 											Qui irure qui lorem cupidatat commodo.
 										</span>
 									</li>
 									<li className="flex gap-x-3">
 										<ServerIcon className="flex-none w-5 h-5 mt-1 text-indigo-600" aria-hidden="true" />
 										<span>
-											<strong className="font-semibold text-white">Database backups.</strong> Ac tincidunt sapien vehicula erat auctor pellentesque
+											<strong className="font-semibold ">Database backups.</strong> Ac tincidunt sapien vehicula erat auctor pellentesque
 											rhoncus. Et magna sit morbi lobortis.
 										</span>
 									</li>
@@ -80,7 +80,7 @@ export const Features = () => {
 									diam tincidunt ac cursus in vel. Mauris varius vulputate et ultrices hac adipiscing egestas. Iaculis convallis ac tempor et ut. Ac
 									lorem vel integer orci.
 								</p>
-								<h2 className="mt-16 text-2xl font-bold tracking-tight text-white">No server? No problem.</h2>
+								<h2 className="mt-16 text-2xl font-bold tracking-tight ">No server? No problem.</h2>
 								<p className="mt-6">
 									Id orci tellus laoreet id ac. Dolor, aenean leo, ac etiam consequat in. Convallis arcu ipsum urna nibh. Pharetra, euismod vitae
 									interdum mauris enim, consequat vulputate nibh. Maecenas pellentesque id sed tellus mauris, ultrices mauris. Tincidunt enim cursus
@@ -89,13 +89,13 @@ export const Features = () => {
 							</div>
 						</div> */}
 							<div className="stacked">
-								<div className="relative flex flex-col px-2 pt-24 pb-12 font-sans text-gray-300  min-h-[100vh]">
+								<div className="relative flex flex-col px-2 pt-24 pb-12 font-sans text-gray-700 dark:text-gray-300  min-h-[100vh]">
 									<div className="flex-1 space-y-8">
 										<div
 											// style={{ top: 'calc(1rem * 1)' }}
-											className="sticky w-full max-w-xl px-8 py-24 mx-auto space-y-4 bg-stone-950/90 border rounded-lg shadow-lg transition-all hover:scale-105 backdrop-blur top-[calc(2rem*1)]"
+											className="sticky w-full max-w-xl px-8 py-24 mx-auto space-y-4 gradient_secondary border rounded-xl shadow-xl transition-all hover:scale-105 backdrop-blur top-[calc(2rem*1)] left-[calc(1rem*1)]"
 										>
-											<h2 className="space-y-1 text-2xl font-bold leading-none text-white">
+											<h2 className="space-y-1 text-2xl font-bold leading-none ">
 												<span className="block text-sm text-blue-400">Project #1 </span>
 												<span className="block">Title of the Project</span>
 											</h2>
@@ -106,9 +106,9 @@ export const Features = () => {
 										</div>
 										<div
 											// style="top: calc(2rem * 2);"
-											className="sticky w-full max-w-xl px-8 py-24 mx-auto space-y-4 bg-stone-950/90 border rounded-lg shadow-lg transition-all hover:scale-105 backdrop-blur top-[calc(2rem*2)]"
+											className="sticky w-full max-w-xl px-8 py-24 mx-auto space-y-4 gradient_secondary border rounded-xl shadow-xl transition-all hover:scale-105 backdrop-blur top-[calc(2rem*2)] left-[calc(8rem*2)]"
 										>
-											<h2 className="space-y-1 text-2xl font-bold leading-none text-white">
+											<h2 className="space-y-1 text-2xl font-bold leading-none ">
 												<span className="block text-sm text-blue-400">Project #2 </span>
 												<span className="block">Title of the Project</span>
 											</h2>
@@ -119,9 +119,9 @@ export const Features = () => {
 										</div>
 										<div
 											// style="top: calc(2rem * 3);"
-											className="sticky w-full max-w-xl px-8 py-24 mx-auto space-y-4 bg-stone-950/90 border rounded-lg shadow-lg transition-all hover:scale-105 backdrop-blur top-[calc(2rem*3)]"
+											className="sticky w-full max-w-xl px-8 py-24 mx-auto space-y-4 gradient_secondary border rounded-xl shadow-xl transition-all hover:scale-105 backdrop-blur top-[calc(2rem*3)]"
 										>
-											<h2 className="space-y-1 text-2xl font-bold leading-none text-white">
+											<h2 className="space-y-1 text-2xl font-bold leading-none ">
 												<span className="block text-sm text-blue-400">Project #3 </span>
 												<span className="block">Title of the Project</span>
 											</h2>
@@ -132,9 +132,9 @@ export const Features = () => {
 										</div>
 										<div
 											// style="top: calc(2rem * 4);"
-											className="sticky w-full max-w-xl px-8 py-24 mx-auto space-y-4 bg-stone-950/90 border rounded-lg shadow-lg transition-all hover:scale-105 backdrop-blur top-[calc(2rem*4)]"
+											className="sticky w-full max-w-xl px-8 py-24 mx-auto space-y-4 gradient_secondary border rounded-xl shadow-xl transition-all hover:scale-105 backdrop-blur top-[calc(2rem*4)]"
 										>
-											<h2 className="space-y-1 text-2xl font-bold leading-none text-white">
+											<h2 className="space-y-1 text-2xl font-bold leading-none ">
 												<span className="block text-sm text-blue-400">Project #4 </span>
 												<span className="block">Title of the Project</span>
 											</h2>
@@ -145,9 +145,9 @@ export const Features = () => {
 										</div>
 										<div
 											// style="top: calc(2rem * 5);"
-											className="sticky w-full max-w-xl px-8 py-24 mx-auto space-y-4 bg-stone-950/90 border rounded-lg shadow-lg transition-all hover:scale-105 backdrop-blur top-[calc(2rem*5)]"
+											className="sticky w-full max-w-xl px-8 py-24 mx-auto space-y-4 gradient_secondary border rounded-xl shadow-xl transition-all hover:scale-105 backdrop-blur top-[calc(2rem*5)]"
 										>
-											<h2 className="space-y-1 text-2xl font-bold leading-none text-white">
+											<h2 className="space-y-1 text-2xl font-bold leading-none ">
 												<span className="block text-sm text-blue-400">Project #5 </span>
 												<span className="block">Title of the Project</span>
 											</h2>
@@ -158,9 +158,9 @@ export const Features = () => {
 										</div>
 										<div
 											// style="top: calc(2rem * 6);"
-											className="sticky w-full max-w-xl px-8 py-24 mx-auto space-y-4 bg-stone-950/90 border rounded-lg shadow-lg transition-all hover:scale-105 backdrop-blur top-[calc(2rem*6)] invisible"
+											className="sticky w-full max-w-xl px-8 py-24 mx-auto space-y-4 gradient_secondary border rounded-xl shadow-xl transition-all hover:scale-105 backdrop-blur top-[calc(2rem*6)] invisible"
 										>
-											<h2 className="space-y-1 text-2xl font-bold leading-none text-white">
+											<h2 className="space-y-1 text-2xl font-bold leading-none ">
 												<span className="block text-sm text-blue-400">Project #6 </span>
 												<span className="block">Title of the Project</span>
 											</h2>
@@ -178,13 +178,13 @@ export const Features = () => {
 			</div>
 
 			<div className="relative min-h-[20vh] mt-16 max-h-screen overflow-y-auto stacked">
-				<div className="relative flex flex-col px-2 pt-24 pb-12 font-sans text-gray-300  min-h-[100vh]">
+				<div className="relative flex flex-col px-2 pt-24 pb-12 font-sans text-gray-700 dark:text-gray-300  min-h-[100vh]">
 					<div className="flex-1 space-y-8">
 						<div
 							// style={{ top: 'calc(1rem * 1)' }}
-							className="sticky w-full max-w-5xl px-8 py-24 mx-auto space-y-4 bg-stone-950/90 border rounded-lg shadow-lg transition-all hover:scale-105 backdrop-blur top-[calc(2.5rem*1)]"
+							className="sticky w-full max-w-5xl px-8 py-24 mx-auto space-y-4 gradient_secondary border rounded-xl shadow-xl transition-all hover:scale-105 backdrop-blur top-[calc(2.5rem*1)]"
 						>
-							<h2 className="space-y-1 text-2xl font-bold leading-none text-white">
+							<h2 className="space-y-1 text-2xl font-bold leading-none ">
 								<span className="block text-sm text-blue-400">Project #1 </span>
 								<span className="block">Title of the Project</span>
 							</h2>
@@ -195,9 +195,9 @@ export const Features = () => {
 						</div>
 						<div
 							// style="top: calc(2rem * 2);"
-							className="sticky w-full max-w-5xl px-8 py-24 mx-auto space-y-4 bg-stone-950/90 border rounded-lg shadow-lg transition-all hover:scale-105 backdrop-blur top-[calc(2.5rem*2)]"
+							className="sticky w-full max-w-5xl px-8 py-24 mx-auto space-y-4 gradient_secondary border rounded-xl shadow-xl transition-all hover:scale-105 backdrop-blur top-[calc(2.5rem*2)]"
 						>
-							<h2 className="space-y-1 text-2xl font-bold leading-none text-white">
+							<h2 className="space-y-1 text-2xl font-bold leading-none ">
 								<span className="block text-sm text-blue-400">Project #2 </span>
 								<span className="block">Title of the Project</span>
 							</h2>
@@ -208,9 +208,9 @@ export const Features = () => {
 						</div>
 						<div
 							// style="top: calc(2rem * 3);"
-							className="sticky w-full max-w-5xl px-8 py-24 mx-auto space-y-4 bg-stone-950/90 border rounded-lg shadow-lg transition-all hover:scale-105 backdrop-blur top-[calc(2.5rem*3)]"
+							className="sticky w-full max-w-5xl px-8 py-24 mx-auto space-y-4 gradient_secondary border rounded-xl shadow-xl transition-all hover:scale-105 backdrop-blur top-[calc(2.5rem*3)]"
 						>
-							<h2 className="space-y-1 text-2xl font-bold leading-none text-white">
+							<h2 className="space-y-1 text-2xl font-bold leading-none ">
 								<span className="block text-sm text-blue-400">Project #3 </span>
 								<span className="block">Title of the Project</span>
 							</h2>
@@ -221,9 +221,9 @@ export const Features = () => {
 						</div>
 						<div
 							// style="top: calc(2rem * 4);"
-							className="sticky w-full max-w-5xl px-8 py-24 mx-auto space-y-4 bg-stone-950/90 border rounded-lg shadow-lg transition-all hover:scale-105 backdrop-blur top-[calc(2.5rem*4)]"
+							className="sticky w-full max-w-5xl px-8 py-24 mx-auto space-y-4 gradient_secondary border rounded-xl shadow-xl transition-all hover:scale-105 backdrop-blur top-[calc(2.5rem*4)]"
 						>
-							<h2 className="space-y-1 text-2xl font-bold leading-none text-white">
+							<h2 className="space-y-1 text-2xl font-bold leading-none ">
 								<span className="block text-sm text-blue-400">Project #4 </span>
 								<span className="block">Title of the Project</span>
 							</h2>
@@ -234,9 +234,9 @@ export const Features = () => {
 						</div>
 						<div
 							// style="top: calc(2rem * 5);"
-							className="sticky w-full max-w-5xl px-8 py-24 mx-auto space-y-4 bg-stone-950/90 border rounded-lg shadow-lg transition-all hover:scale-105 backdrop-blur top-[calc(2.5rem*5)]"
+							className="sticky w-full max-w-5xl px-8 py-24 mx-auto space-y-4 gradient_secondary border rounded-xl shadow-xl transition-all hover:scale-105 backdrop-blur top-[calc(2.5rem*5)]"
 						>
-							<h2 className="space-y-1 text-2xl font-bold leading-none text-white">
+							<h2 className="space-y-1 text-2xl font-bold leading-none ">
 								<span className="block text-sm text-blue-400">Project #5 </span>
 								<span className="block">Title of the Project</span>
 							</h2>
@@ -247,9 +247,9 @@ export const Features = () => {
 						</div>
 						<div
 							// style="top: calc(2rem * 6);"
-							className="sticky w-full max-w-5xl px-8 py-24 mx-auto space-y-4 bg-stone-950/90 border rounded-lg shadow-lg transition-all hover:scale-105 backdrop-blur top-[calc(2.5rem*6)] invisible"
+							className="sticky w-full max-w-5xl px-8 py-24 mx-auto space-y-4 gradient_secondary border rounded-xl shadow-xl transition-all hover:scale-105 backdrop-blur top-[calc(2.5rem*6)] invisible"
 						>
-							<h2 className="space-y-1 text-2xl font-bold leading-none text-white">
+							<h2 className="space-y-1 text-2xl font-bold leading-none ">
 								<span className="block text-sm text-blue-400">Project #6 </span>
 								<span className="block">Title of the Project</span>
 							</h2>
