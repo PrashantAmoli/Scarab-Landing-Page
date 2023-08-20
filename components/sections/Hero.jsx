@@ -32,7 +32,7 @@ export const Hero = () => {
 				</Button>
 			</nav>
 
-			<section className="relative z-10 flex flex-col items-start w-full min-h-screen p-2 py-20 overflow-hidden sm:py-24 gap-y-14 sm:pl-16">
+			<section className="relative z-10 flex flex-col items-start w-full min-h-screen p-2 py-20 overflow-hidden sm:py-24 gap-y-9 sm:gap-y-14 sm:pl-16">
 				<svg width="100" height="81" viewBox="0 0 340 276" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-24 h-28">
 					<g clip-path="url(#clip0_838_6124)">
 						<path
@@ -130,7 +130,7 @@ export const Hero = () => {
 				</div>
 
 				<Reveal from="bottom">
-					<div className="relative flex items-center justify-center w-full mt-6">
+					<div className="relative flex items-center justify-center w-full mt-16 sm:mt-20">
 						{/* <ScaleOnScroll> */}
 						<ReactParallaxTilt>
 							<img
