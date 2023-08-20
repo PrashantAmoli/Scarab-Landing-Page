@@ -1,4 +1,6 @@
 import Image from 'next/image';
+import ReactParallaxTilt from 'react-parallax-tilt';
+import { ScaleOnScroll } from '../animations/ScaleOnScroll';
 
 export const Hero = () => {
 	return (
@@ -103,6 +105,18 @@ export const Hero = () => {
 				<button className="relative w-40 px-5 py-1 bg-blue-700 h-14 btn_polygon">Launch App</button>
 
 				<Image src="/hero.gif" width="500" height="500" alt="bg" className="absolute rounded-full -right-36 md:right-20 top-40 -z-10" />
+
+				<div className="relative flex items-center justify-center w-full mt-6">
+					{/* <ScaleOnScroll> */}
+					<ReactParallaxTilt>
+						<img
+							src="https://tailwindui.com/img/component-images/dark-project-app-screenshot.png"
+							alt="hero-dashboard"
+							className="relative w-full max-w-4xl rounded-xl min-h-[20vh]"
+						/>
+					</ReactParallaxTilt>
+					{/* </ScaleOnScroll> */}
+				</div>
 			</section>
 		</>
 	);
