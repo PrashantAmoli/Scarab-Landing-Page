@@ -48,13 +48,15 @@ export const SocialsMenu = () => {
 			<section className="fixed z-30 flex flex-col gap-6 right-1.5 sm:right-5 socials top-1/4">
 				{socials.map((social, key) => (
 					<HoverCard key={key}>
+						{/* <Link href={social.url}> */}
 						<HoverCardTrigger className="flex items-center justify-center w-8 h-8 text-2xl rounded-full cursor-pointer bg-black/20 backdrop-blur">
 							{social.trigger}
 						</HoverCardTrigger>
 
-						<HoverCardContent className="relative w-24 py-1 text-center text-white rounded-full right-9 sm:right-14 bottom-9 bg-black/20 backdrop-blur">
+						<HoverCardContent className="relative py-1 text-center text-white rounded-full w-28 right-9 sm:right-14 bottom-9 bg-black/20 backdrop-blur">
 							<Link href={social.url}>{social.name}</Link>
 						</HoverCardContent>
+						{/* </Link> */}
 					</HoverCard>
 				))}
 			</section>

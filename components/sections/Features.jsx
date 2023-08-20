@@ -88,87 +88,87 @@ export const Features = () => {
 								</p>
 							</div>
 						</div> */}
-						</div>
-						<div className="stacked">
-							<div className="relative flex flex-col px-2 pt-24 pb-12 font-sans text-gray-300  min-h-[100vh]">
-								<div className="flex-1 space-y-8">
-									<div
-										// style={{ top: 'calc(1rem * 1)' }}
-										className="sticky w-full max-w-xl px-8 py-24 mx-auto space-y-4 bg-stone-950/90 border rounded-lg shadow-lg transition-all hover:scale-105 backdrop-blur top-[calc(2rem*1)]"
-									>
-										<h2 className="space-y-1 text-2xl font-bold leading-none text-white">
-											<span className="block text-sm text-blue-400">Project #1 </span>
-											<span className="block">Title of the Project</span>
-										</h2>
-										<p className="">
-											Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum, perspiciatis blanditiis accusamus commodi consectetur id
-											tempora rem iure eligendi quos eos et autem ratione exercitationem earum laborum ad a sequi!
-										</p>
-									</div>
-									<div
-										// style="top: calc(2rem * 2);"
-										className="sticky w-full max-w-xl px-8 py-24 mx-auto space-y-4 bg-stone-950/90 border rounded-lg shadow-lg transition-all hover:scale-105 backdrop-blur top-[calc(2rem*2)]"
-									>
-										<h2 className="space-y-1 text-2xl font-bold leading-none text-white">
-											<span className="block text-sm text-blue-400">Project #2 </span>
-											<span className="block">Title of the Project</span>
-										</h2>
-										<p className="">
-											Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum, perspiciatis blanditiis accusamus commodi consectetur id
-											tempora rem iure eligendi quos eos et autem ratione exercitationem earum laborum ad a sequi!
-										</p>
-									</div>
-									<div
-										// style="top: calc(2rem * 3);"
-										className="sticky w-full max-w-xl px-8 py-24 mx-auto space-y-4 bg-stone-950/90 border rounded-lg shadow-lg transition-all hover:scale-105 backdrop-blur top-[calc(2rem*3)]"
-									>
-										<h2 className="space-y-1 text-2xl font-bold leading-none text-white">
-											<span className="block text-sm text-blue-400">Project #3 </span>
-											<span className="block">Title of the Project</span>
-										</h2>
-										<p className="">
-											Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum, perspiciatis blanditiis accusamus commodi consectetur id
-											tempora rem iure eligendi quos eos et autem ratione exercitationem earum laborum ad a sequi!
-										</p>
-									</div>
-									<div
-										// style="top: calc(2rem * 4);"
-										className="sticky w-full max-w-xl px-8 py-24 mx-auto space-y-4 bg-stone-950/90 border rounded-lg shadow-lg transition-all hover:scale-105 backdrop-blur top-[calc(2rem*4)]"
-									>
-										<h2 className="space-y-1 text-2xl font-bold leading-none text-white">
-											<span className="block text-sm text-blue-400">Project #4 </span>
-											<span className="block">Title of the Project</span>
-										</h2>
-										<p className="">
-											Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum, perspiciatis blanditiis accusamus commodi consectetur id
-											tempora rem iure eligendi quos eos et autem ratione exercitationem earum laborum ad a sequi!
-										</p>
-									</div>
-									<div
-										// style="top: calc(2rem * 5);"
-										className="sticky w-full max-w-xl px-8 py-24 mx-auto space-y-4 bg-stone-950/90 border rounded-lg shadow-lg transition-all hover:scale-105 backdrop-blur top-[calc(2rem*5)]"
-									>
-										<h2 className="space-y-1 text-2xl font-bold leading-none text-white">
-											<span className="block text-sm text-blue-400">Project #5 </span>
-											<span className="block">Title of the Project</span>
-										</h2>
-										<p className="">
-											Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum, perspiciatis blanditiis accusamus commodi consectetur id
-											tempora rem iure eligendi quos eos et autem ratione exercitationem earum laborum ad a sequi!
-										</p>
-									</div>
-									<div
-										// style="top: calc(2rem * 6);"
-										className="sticky w-full max-w-xl px-8 py-24 mx-auto space-y-4 bg-stone-950/90 border rounded-lg shadow-lg transition-all hover:scale-105 backdrop-blur top-[calc(2rem*6)] invisible"
-									>
-										<h2 className="space-y-1 text-2xl font-bold leading-none text-white">
-											<span className="block text-sm text-blue-400">Project #6 </span>
-											<span className="block">Title of the Project</span>
-										</h2>
-										<p className="">
-											Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum, perspiciatis blanditiis accusamus commodi consectetur id
-											tempora rem iure eligendi quos eos et autem ratione exercitationem earum laborum ad a sequi!
-										</p>
+							<div className="stacked">
+								<div className="relative flex flex-col px-2 pt-24 pb-12 font-sans text-gray-300  min-h-[100vh]">
+									<div className="flex-1 space-y-8">
+										<div
+											// style={{ top: 'calc(1rem * 1)' }}
+											className="sticky w-full max-w-xl px-8 py-24 mx-auto space-y-4 bg-stone-950/90 border rounded-lg shadow-lg transition-all hover:scale-105 backdrop-blur top-[calc(2rem*1)]"
+										>
+											<h2 className="space-y-1 text-2xl font-bold leading-none text-white">
+												<span className="block text-sm text-blue-400">Project #1 </span>
+												<span className="block">Title of the Project</span>
+											</h2>
+											<p className="">
+												Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum, perspiciatis blanditiis accusamus commodi consectetur id
+												tempora rem iure eligendi quos eos et autem ratione exercitationem earum laborum ad a sequi!
+											</p>
+										</div>
+										<div
+											// style="top: calc(2rem * 2);"
+											className="sticky w-full max-w-xl px-8 py-24 mx-auto space-y-4 bg-stone-950/90 border rounded-lg shadow-lg transition-all hover:scale-105 backdrop-blur top-[calc(2rem*2)]"
+										>
+											<h2 className="space-y-1 text-2xl font-bold leading-none text-white">
+												<span className="block text-sm text-blue-400">Project #2 </span>
+												<span className="block">Title of the Project</span>
+											</h2>
+											<p className="">
+												Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum, perspiciatis blanditiis accusamus commodi consectetur id
+												tempora rem iure eligendi quos eos et autem ratione exercitationem earum laborum ad a sequi!
+											</p>
+										</div>
+										<div
+											// style="top: calc(2rem * 3);"
+											className="sticky w-full max-w-xl px-8 py-24 mx-auto space-y-4 bg-stone-950/90 border rounded-lg shadow-lg transition-all hover:scale-105 backdrop-blur top-[calc(2rem*3)]"
+										>
+											<h2 className="space-y-1 text-2xl font-bold leading-none text-white">
+												<span className="block text-sm text-blue-400">Project #3 </span>
+												<span className="block">Title of the Project</span>
+											</h2>
+											<p className="">
+												Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum, perspiciatis blanditiis accusamus commodi consectetur id
+												tempora rem iure eligendi quos eos et autem ratione exercitationem earum laborum ad a sequi!
+											</p>
+										</div>
+										<div
+											// style="top: calc(2rem * 4);"
+											className="sticky w-full max-w-xl px-8 py-24 mx-auto space-y-4 bg-stone-950/90 border rounded-lg shadow-lg transition-all hover:scale-105 backdrop-blur top-[calc(2rem*4)]"
+										>
+											<h2 className="space-y-1 text-2xl font-bold leading-none text-white">
+												<span className="block text-sm text-blue-400">Project #4 </span>
+												<span className="block">Title of the Project</span>
+											</h2>
+											<p className="">
+												Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum, perspiciatis blanditiis accusamus commodi consectetur id
+												tempora rem iure eligendi quos eos et autem ratione exercitationem earum laborum ad a sequi!
+											</p>
+										</div>
+										<div
+											// style="top: calc(2rem * 5);"
+											className="sticky w-full max-w-xl px-8 py-24 mx-auto space-y-4 bg-stone-950/90 border rounded-lg shadow-lg transition-all hover:scale-105 backdrop-blur top-[calc(2rem*5)]"
+										>
+											<h2 className="space-y-1 text-2xl font-bold leading-none text-white">
+												<span className="block text-sm text-blue-400">Project #5 </span>
+												<span className="block">Title of the Project</span>
+											</h2>
+											<p className="">
+												Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum, perspiciatis blanditiis accusamus commodi consectetur id
+												tempora rem iure eligendi quos eos et autem ratione exercitationem earum laborum ad a sequi!
+											</p>
+										</div>
+										<div
+											// style="top: calc(2rem * 6);"
+											className="sticky w-full max-w-xl px-8 py-24 mx-auto space-y-4 bg-stone-950/90 border rounded-lg shadow-lg transition-all hover:scale-105 backdrop-blur top-[calc(2rem*6)] invisible"
+										>
+											<h2 className="space-y-1 text-2xl font-bold leading-none text-white">
+												<span className="block text-sm text-blue-400">Project #6 </span>
+												<span className="block">Title of the Project</span>
+											</h2>
+											<p className="">
+												Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum, perspiciatis blanditiis accusamus commodi consectetur id
+												tempora rem iure eligendi quos eos et autem ratione exercitationem earum laborum ad a sequi!
+											</p>
+										</div>
 									</div>
 								</div>
 							</div>

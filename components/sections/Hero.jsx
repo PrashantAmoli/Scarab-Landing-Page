@@ -1,16 +1,34 @@
 import Image from 'next/image';
 import ReactParallaxTilt from 'react-parallax-tilt';
 import { ScaleOnScroll } from '../animations/ScaleOnScroll';
+import { WordCloud } from '../elements/WordCloud';
+import Reveal from '../animations/Reveal';
+
+const keywords = [
+	'Web3',
+	'Blockchain',
+	'NFT',
+	'Crypto',
+	'Bitcoin',
+	'Ethereum',
+	'Polygon',
+	'Cardano',
+	'Polkadot',
+	'Cosmos',
+	'Algorand',
+	'Filecoin',
+	'IPFS',
+	'Arweave',
+	'InterPlanetary File System',
+];
 
 export const Hero = () => {
 	return (
 		<>
-			<nav className="absolute z-10 flex items-center justify-center w-70 top-3 right-3 sm:right-16 bg-black/90">
+			<nav className="absolute z-10 flex items-center justify-center w-70 top-3 right-3 sm:right-16 ">
 				<button className="w-40 py-1 transition-all rounded-lg shadow-2xl h-9 bg-black/70 px-9 shadow-blue-600 hover:cursor-pointer hover:scale-x-105 hover:shadow-2xl hover:shadow-blue-500">
-					Launch App
+					Get Started
 				</button>
-
-				<Image src="/buttonGradient.webp" width={250} height={250} alt="button" className="absolute w-full -top-14 -z-10" />
 			</nav>
 
 			<section className="relative z-10 flex flex-col items-start w-full min-h-screen p-2 py-20 overflow-hidden sm:py-24 gap-y-14 sm:pl-16">
@@ -104,19 +122,25 @@ export const Hero = () => {
 
 				<button className="relative w-40 px-5 py-1 bg-blue-700 h-14 btn_polygon">Launch App</button>
 
-				<Image src="/hero.gif" width="500" height="500" alt="bg" className="absolute rounded-full -right-36 md:right-20 top-40 -z-10" />
+				{/* <Image src="/hero.gif" width="500" height="500" alt="bg" className="absolute rounded-full -right-36 md:right-20 top-40 -z-10" /> */}
 
-				<div className="relative flex items-center justify-center w-full mt-6">
-					{/* <ScaleOnScroll> */}
-					<ReactParallaxTilt>
-						<img
-							src="https://tailwindui.com/img/component-images/dark-project-app-screenshot.png"
-							alt="hero-dashboard"
-							className="relative w-full max-w-4xl rounded-xl min-h-[20vh]"
-						/>
-					</ReactParallaxTilt>
-					{/* </ScaleOnScroll> */}
+				<div className="absolute rounded-full -right-36 md:right-20 top-40 -z-10">
+					<WordCloud data={keywords} />
 				</div>
+
+				<Reveal from="right">
+					<div className="relative flex items-center justify-center w-full mt-6">
+						{/* <ScaleOnScroll> */}
+						<ReactParallaxTilt>
+							<img
+								src="https://tailwindui.com/img/component-images/dark-project-app-screenshot.png"
+								alt="hero-dashboard"
+								className="relative w-full max-w-4xl rounded-xl min-h-[20vh]"
+							/>
+						</ReactParallaxTilt>
+						{/* </ScaleOnScroll> */}
+					</div>
+				</Reveal>
 			</section>
 		</>
 	);

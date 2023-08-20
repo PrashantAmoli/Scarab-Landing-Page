@@ -9,6 +9,7 @@ import Reveal from '@/components/animations/Reveal';
 import { useRef } from 'react';
 import useScrollSnap from 'react-use-scroll-snap';
 import { SocialsMenu } from '@/components/sections/SocialsMenu';
+import GradientBox from '@/components/elements/GradientBox';
 
 export default function Home() {
 	const scrollRef = useRef(null);
@@ -27,14 +28,18 @@ export default function Home() {
 				{/* <Navbar /> */}
 
 				<Reveal from="left">
-					<Hero />
+					<GradientBox>
+						<Hero />
+					</GradientBox>
 				</Reveal>
 
 				<SocialsMenu />
 				<Reveal from="right"></Reveal>
 
 				<Reveal from="right">
-					<Features />
+					<GradientBox>
+						<Features />
+					</GradientBox>
 				</Reveal>
 
 				<Reveal from="left">

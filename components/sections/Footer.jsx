@@ -1,7 +1,7 @@
 export const Footer = () => {
 	return (
 		<>
-			<footer className="w-full text-center h-44 bg-stone-950 text-lg-start">
+			<footer className="w-full pt-10 text-center h-44 text-lg-start">
 				<svg width="100" height="81" viewBox="0 0 340 276" fill="none" xmlns="http://www.w3.org/2000/svg" className="mx-auto w-36 h-44">
 					<g clip-path="url(#clip0_838_6124)">
 						<path
@@ -84,7 +84,7 @@ export const Footer = () => {
 					</defs>
 				</svg>
 
-				<div className="w-11/12 mx-auto h-0.5 bg-gray-600/50"></div>
+				<div className="w-11/12 mx-auto h-0.5 bg-gray-500"></div>
 
 				<div className="flex flex-col items-center justify-center w-full h-full p-1 text-sm text-gray-400">
 					<p className="text-center">© 2023 All rights reserved.</p>
