@@ -8,6 +8,7 @@ import { Timeline } from '@/components/sections/Timeline';
 import Reveal from '@/components/animations/Reveal';
 import { useRef } from 'react';
 import useScrollSnap from 'react-use-scroll-snap';
+import { SocialsMenu } from '@/components/sections/SocialsMenu';
 
 export default function Home() {
 	const scrollRef = useRef(null);
@@ -25,29 +26,24 @@ export default function Home() {
 			<main className="relative flex flex-col items-center justify-center min-h-screen snap-proximity snap snap-y" ref={scrollRef}>
 				{/* <Navbar /> */}
 
-				<div className="snap-start">
-					<Reveal from="left">
-						<Hero />
-					</Reveal>
-				</div>
+				<Reveal from="left">
+					<Hero />
+				</Reveal>
 
-				<div className="snap-start">
-					<Reveal from="right">
-						<Features />
-					</Reveal>
-				</div>
+				<SocialsMenu />
+				<Reveal from="right"></Reveal>
 
-				<div className="snap-start">
-					<Reveal from="left">
-						<Timeline />
-					</Reveal>
-				</div>
+				<Reveal from="right">
+					<Features />
+				</Reveal>
 
-				<div className="snap-start">
-					<Reveal from="right">
-						<FAQ />
-					</Reveal>
-				</div>
+				<Reveal from="left">
+					<Timeline />
+				</Reveal>
+
+				<Reveal from="right">
+					<FAQ />
+				</Reveal>
 
 				<Reveal from="left">
 					<Footer />
