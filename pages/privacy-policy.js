@@ -37,7 +37,7 @@ export const PrivacyPolicy = () => {
 					</nav>
 
 					<article className="flex flex-col w-11/12 max-w-6xl gap-5 mx-auto my-10 mt-32">
-						<h1 className="mb-5 text-2xl font-extrabold tracking-widest sm:text-4xl font-SpaceX">PRIVaCy POLICy</h1>
+						<h1 className="mb-1 text-2xl font-extrabold tracking-widest sm:text-4xl font-SpaceX">PRIVaCy POLICy</h1>
 
 						<div className="w-full mx-auto h-0.5 mb-5 bg-gray-500"></div>
 
