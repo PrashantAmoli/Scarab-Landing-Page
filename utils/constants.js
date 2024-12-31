@@ -27,32 +27,15 @@ export const TIMELINE_DATA = [
 
 export const FAQs = [
 	{
-		question: 'What is the difference between a public key and a wallet address?',
-		answer:
-			'A public key is a cryptographic key that is used to encrypt messages. A wallet address is a hash of the public key. A wallet address is used to receive funds.',
+		question: 'Will I be automatically charged after my trial ends?',
+		answer: "No, because we don't take your credit card for the free trial.",
 	},
 	{
-		question: 'What is the difference between a private key and a seed phrase?',
-		answer:
-			'A private key is a cryptographic key that is used to decrypt messages. A seed phrase is a list of words that can be used to generate a private key.',
+		question: 'Can I invite my team to use it?',
+		answer: 'Yeah, just hop on to "Admin settings" and invite your team members by  email.',
 	},
 	{
-		question: 'What is the difference between a private key and a wallet address?',
-		answer:
-			'A private key is a cryptographic key that is used to decrypt messages. A wallet address is a hash of the public key. A wallet address is used to receive funds.',
-	},
-	{
-		question: 'What is the difference between a public key and a private key?',
-		answer:
-			'A public key is a cryptographic key that is used to encrypt messages. A private key is a cryptographic key that is used to decrypt messages.',
-	},
-	{
-		question: 'What is the difference between a public key and a seed phrase?',
-		answer:
-			'A public key is a cryptographic key that is used to encrypt messages. A seed phrase is a list of words that can be used to generate a private key.',
-	},
-	{
-		question: 'What is the difference between a wallet address and a seed phrase?',
-		answer: 'A wallet address is a hash of the public key. A seed phrase is a list of words that can be used to generate a private key.',
+		question: 'I love the tool, can I refer it?',
+		answer: 'Yes we have a referral program where you can earn monthly on your referrals',
 	},
 ];

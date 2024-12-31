@@ -22,10 +22,10 @@ export const FAQ = () => {
 					<div className="flex flex-col justify-between w-full gap-10 sm:w-1/4">
 						<h3 className="w-full text-5xl font-extrabold xl:text-6xl font-SpaceX">FAQ&apos;s</h3>
 
-						<p className="w-full break-words">
+						{/* <p className="w-full break-words">
 							Our goal is to provide our users with the best possible trading experience. For more in-depth questions on using our platform please
 							read through our documentation or reach out to us in our official Telegram channels where we will be more than happy to assist you!
-						</p>
+						</p> */}
 					</div>
 					<AccordionGroup />
 				</div>

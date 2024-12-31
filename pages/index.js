@@ -24,7 +24,7 @@ export default function Home() {
 	return (
 		<>
 			<Head>
-				<title>Scarab</title>
+				<title>Boomtechinc | Home</title>
 			</Head>
 
 			<main className="relative flex flex-col items-center justify-center min-h-screen snap-proximity snap snap-y" ref={scrollRef}>
@@ -36,20 +36,20 @@ export default function Home() {
 					</GradientBox>
 				</Reveal>
 
-				<SocialsMenu />
+				{/* <SocialsMenu /> */}
 				<Reveal from="right"></Reveal>
 
-				<Reveal from="right">
+				{/* <Reveal from="right">
 					<GradientBox>
 						<Features />
 					</GradientBox>
-				</Reveal>
+				</Reveal> */}
 
-				<Reveal from="left">
+				{/* <Reveal from="left">
 					<GradientBox>
 						<Timeline />
 					</GradientBox>
-				</Reveal>
+				</Reveal> */}
 
 				<Reveal from="right">
 					<GradientBox>
