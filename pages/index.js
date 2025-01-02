@@ -14,8 +14,8 @@ import { Switch } from '@/components/ui/switch';
 import { useTheme } from 'next-themes';
 
 export default function Home() {
-	const { theme, setTheme } = useTheme();
 	const scrollRef = useRef(null);
+	const { theme, setTheme } = useTheme();
 	// const { goto } = useScrollSnap({
 	// 	ref: scrollRef,
 	// 	duration: 200,
