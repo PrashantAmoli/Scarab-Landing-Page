@@ -7,7 +7,6 @@ import { Features } from '@/components/sections/Features';
 import { Timeline } from '@/components/sections/Timeline';
 import Reveal from '@/components/animations/Reveal';
 import { useRef } from 'react';
-import useScrollSnap from 'react-use-scroll-snap';
 import { SocialsMenu } from '@/components/sections/SocialsMenu';
 import GradientBox from '@/components/elements/GradientBox';
 import { Switch } from '@/components/ui/switch';
@@ -16,10 +15,6 @@ import { useTheme } from 'next-themes';
 export default function Home() {
 	const scrollRef = useRef(null);
 	const { theme, setTheme } = useTheme();
-	// const { goto } = useScrollSnap({
-	// 	ref: scrollRef,
-	// 	duration: 200,
-	// });
 
 	return (
 		<>
@@ -27,7 +22,7 @@ export default function Home() {
 				<title>Boomtechinc | Home</title>
 			</Head>
 
-			<main className="relative flex flex-col items-center justify-center min-h-screen snap-proximity snap snap-y" ref={scrollRef}>
+			<main className="flex relative flex-col justify-center items-center min-h-screen snap-proximity snap snap-y" ref={scrollRef}>
 				{/* <Navbar /> */}
 
 				<Reveal from="left">
@@ -66,7 +61,7 @@ export default function Home() {
 				<Switch
 					checked={theme === 'light' ? true : false}
 					onCheckedChange={() => setTheme(theme === 'light' ? 'dark' : 'light')}
-					className="fixed z-30 scale-110 sm:scale-125 top-14 sm:top-5 right-2 sm:right-4 dark:bg-white"
+					className="fixed right-2 top-14 z-30 scale-110 sm:scale-125 sm:top-5 sm:right-4 dark:bg-white"
 				/>
 			</main>
 		</>

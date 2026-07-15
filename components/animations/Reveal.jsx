@@ -1,5 +1,5 @@
 import { motion, useAnimation, useInView } from 'framer-motion';
-import { use, useEffect, useRef } from 'react';
+import { useEffect, useRef } from 'react';
 
 // from: left, right, top, bottom
 // once: true, false
@@ -16,7 +16,7 @@ export default function Reveal({ children, from = 'left', once = false }) {
 		} else {
 			mainControls.start('hidden');
 		}
-	}, [isInView]);
+	}, [isInView, mainControls]);
 
 	return (
 		<>

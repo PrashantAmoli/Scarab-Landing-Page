@@ -1,4 +1,5 @@
 import { CloudArrowUpIcon, LockClosedIcon, ServerIcon } from '@heroicons/react/20/solid';
+import Image from 'next/image';
 
 export const Features = () => {
 	return (
@@ -37,10 +38,13 @@ export const Features = () => {
 						</div>
 
 						<div className="p-12 -mt-12 -ml-12 lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden">
-							<img
+							<Image
 								className="w-[48rem] max-w-none rounded-xl bg-gray-900 shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem]"
 								src="https://tailwindui.com/img/component-images/dark-project-app-screenshot.png"
 								alt=""
+								width={912}
+								height={600}
+								unoptimized
 							/>
 						</div>
 
