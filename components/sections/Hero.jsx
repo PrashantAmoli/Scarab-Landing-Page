@@ -4,36 +4,41 @@ import { ScaleOnScroll } from '../animations/ScaleOnScroll';
 import { WordCloud } from '../elements/WordCloud';
 import Reveal from '../animations/Reveal';
 import { Button } from '../ui/button';
+import Link from 'next/link';
 
 const keywords = [
-	'Web3',
-	'Blockchain',
-	'NFT',
-	'Crypto',
-	'Bitcoin',
-	'Ethereum',
-	'Polygon',
-	'Cardano',
-	'Polkadot',
-	'Cosmos',
-	'Algorand',
-	'Filecoin',
-	'IPFS',
-	'Arweave',
-	'InterPlanetary File System',
+	'AI Outreach',
+	'LinkedIn Automation',
+	'Email Automation',
+	'SaaS Outreach',
+	'Sales Automation',
+	'Lead Generation',
+	'LinkedIn AI',
+	'Email Campaigns',
+	'Automation Tools',
+	'AI Marketing',
+	'Prospecting',
+	'Cold Outreach',
+	'Lead Nurturing',
+	'Sales Outreach',
+	'AI SaaS',
 ];
 
 export const Hero = () => {
 	return (
 		<>
-			<nav className="absolute z-30 flex items-center justify-center w-70 top-3 right-3 sm:right-20 ">
+			<nav className="absolute right-0 z-30 flex flex-col items-center justify-between w-full sm:flex-row w-70 top-3 sm:right-20 sm:w-10/12 lg:w-11/12">
+				<Link href="/">
+					<h1 className="text-3xl font-SpaceX">Boomtechinc</h1>
+				</Link>
+
 				<Button className="w-40 py-1 capitalize transition-all rounded-lg shadow-2xl px-9 h-9 shadow-blue-600 hover:cursor-pointer hover:scale-x-105 hover:shadow-2xl hover:shadow-blue-500">
 					Get Started
 				</Button>
 			</nav>
 
 			<section className="relative z-10 flex flex-col items-start w-full min-h-screen p-2 py-20 overflow-hidden sm:py-24 gap-y-9 sm:gap-y-14 sm:pl-16">
-				<svg width="100" height="81" viewBox="0 0 340 276" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-24 h-28">
+				{/* <svg width="100" height="81" viewBox="0 0 340 276" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-24 h-28">
 					<g clip-path="url(#clip0_838_6124)">
 						<path
 							d="M221.745 59.5564L240.006 44.0001L262.326 50.7637L282.617 35.8837"
@@ -113,12 +118,17 @@ export const Hero = () => {
 							<rect width="340" height="276" fill="white"></rect>
 						</clipPath>
 					</defs>
-				</svg>
+				</svg> */}
 
-				<h1 className="text-6xl font-extrabold tracking-widest uppercase sm:text-7xl sm:w-3/4 md:w-1/2 font-SpaceX">FIND THE NEXT BIG SHIT COIN</h1>
+				<div className="w-24 h-28"></div>
+
+				<h1 className="text-4xl font-extrabold tracking-widest sm:w-3/4 md:w-1/2 font-SpaceX">
+					AI-powered Automation for your LinkedIn & Email Outreach
+				</h1>
 
 				<p className="w-full tracking-widest break-words sm:w-1/3">
-					Scarab is an all-in-one crypto portfolio manager that lets you buy sell and snipe tokens without using a wallet or DEX.
+					Boomtechinc&apos;s ai-powered automation SaaS supercharges your LinkedIn and Email outreach efforts to provide you with much better results
+					low intervention
 				</p>
 
 				<Button className="w-40 h-11 btn_polygon">Get Started</Button>
@@ -133,11 +143,11 @@ export const Hero = () => {
 					<div className="relative flex items-center justify-center w-full mt-16 sm:mt-20">
 						{/* <ScaleOnScroll> */}
 						<ReactParallaxTilt>
-							<img
+							{/* <img
 								src="https://tailwindui.com/img/component-images/dark-project-app-screenshot.png"
 								alt="hero-dashboard"
 								className="relative w-full max-w-4xl rounded-xl min-h-[20vh]"
-							/>
+							/> */}
 						</ReactParallaxTilt>
 						{/* </ScaleOnScroll> */}
 					</div>
